@@ -1,0 +1,273 @@
+/* 
+    Document   : mystyle
+    Created on : 03-nov-2014, 9:57:39
+    Author     : admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+
+label, input, select {
+    display: block;
+    width: 200px;
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height:22px;
+}
+label {
+    text-align: right;
+    width: 150px;
+    padding-right: 20px;
+    font-size:14px;
+}
+
+
+br {
+    clear: left;
+}
+
+.marco {
+    text-align:center;
+    width: 500px;
+    margin-left:20%;
+}
+
+
+.style1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.style2 {color: #000000}
+.style3 {
+    font-size: 12px;
+    color: red;
+}
+
+.confirmarOK {
+    font-size: 12px;
+    color: green;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+div.wrapper {
+    margin: 20px auto;
+    width: 350px;
+}
+
+nav.vertical {
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    overflow: hidden;
+    text-align: center;
+}
+
+nav.vertical > ul {
+    list-style-type: none;
+}
+
+nav.vertical > ul > li {
+    display: block;
+}
+
+nav.vertical > ul > li > a {
+    background-color: rgb(157, 34, 60);
+    background-image: -webkit-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+    background-image: -moz-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+    background-image: -o-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+    background-image: linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
+    color: rgb(255,255,255);
+    display: block;
+    font-size: .85rem;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: .5rem;
+    line-height: 50px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.1);
+    text-transform: uppercase;
+    transition: all .1s ease;
+    text-decoration: none;
+}
+
+nav.vertical > ul > li > a:hover {
+    background-color: rgb(114, 51, 98);
+    background-image: -webkit-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+    background-image: -moz-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+    background-image: -o-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+    background-image: linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98)); 
+    cursor: pointer;
+}
+
+nav.vertical > ul > li > div {
+    background-color: rgb(255,255,255);
+}
+
+nav.vertical > ul > li > div > ul {
+    list-style-type: none;
+}
+
+nav.vertical > ul > li > div > ul > li > a {
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    color: #333331;
+    display: block;
+    font-size: 1.1rem;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: all 0.15s linear;
+}
+
+nav.vertical > ul > li > div > ul > li:hover > a {
+    background-color: lightBlue;
+    color: rgb(255,255,255);
+    padding: 5px 0 5px 50px;
+}
+
+h1 {
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+/*label, select  {
+   float: left; clear: left;
+   margin: 11px 20px 0 0; 
+   width: 95px;
+   text-align: right; 
+   font-size: 16px; 
+   color: #445668;
+   text-transform: uppercase; 
+   text-shadow: 0px 1px 0px #f2f2f2;
+   }
+
+input, select {
+   width: 260px; 
+   height: 35px; 
+   padding: 5px 20px 0px 20px; 
+   margin: 0 0 20px 0;
+   background: #5E768D;
+   background: -moz-linear-gradient(top, #002c3c 0%, #204c5c 20%);  firefox 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002c3c), color-stop(20%,#204c5c));  webkit 
+   border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px;
+   -moz-box-shadow: 0px 1px 0px #f2f2f2;
+   -webkit-box-shadow: 0px 1px 0px #f2f2f2;
+   font-family: sans-serif; 
+   font-size: 16px; color: #f2f2f2;
+   text-transform: uppercase; 
+   text-shadow: 0px -1px 0px #334f71;
+   }*/
+
+/*input::-webkit-input-placeholder  {
+   color: #ddd; 
+   text-shadow: 0px -1px 0px #38506b; 
+   text-transform:capitalize;
+   }
+   
+input:-moz-placeholder {
+   color: #ddd; 
+   text-shadow: 0px -1px 0px #38506b; 
+   text-transform:capitalize;
+   }*/
+
+/*textarea {
+   width: 260px; 
+   height: 170px; 
+   padding: 12px 20px 0px 20px; 
+   margin: 0 0 20px 0;
+   background: #5E768D;
+   background: -moz-linear-gradient(top, #002c3c 0%, #204c5c 20%);  firefox 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002c3c), color-stop(20%,#204c5c));  webkit 
+   border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px;
+   -moz-box-shadow: 0px 1px 0px #f2f2f2;
+   -webkit-box-shadow: 0px 1px 0px #f2f2f2;
+   font-family: sans-serif; font-size: 16px;
+    color: #f2f2f2; 
+   text-transform: uppercase; 
+   text-shadow: 0px -1px 0px #334f71;
+   resize:none;
+   }
+   
+textarea::-webkit-input-placeholder  {
+   color: #ddd; 
+   text-shadow: 0px -1px 0px #38506b; 
+   text-transform:capitalize;
+   }
+
+textarea:-moz-placeholder {
+   color: #ddd; text-shadow: 0px -1px 0px #38506b; 
+   text-transform:capitalize;
+   }
+
+input:focus, textarea:focus {
+   background: #728eaa;
+   background: -moz-linear-gradient(top, #204c5c 0%, #406c7c 20%);  firefox 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#204c5c), color-stop(20%,#406c7c));  webkit 
+   }
+
+input[type=submit]{
+   width: 185px; 
+   height: 52px; 
+   float: right; 
+   padding: 10px 15px; 
+   margin: 0 15px 0 0;
+   -moz-box-shadow: 0px 0px 5px #999;
+   -webkit-box-shadow: 0px 0px 5px #999;
+   border: 1px solid #556f8c;
+   background: -moz-linear-gradient(top, #002c3c 0%, #204c5c 100%);  firefox 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002c3c), color-stop(100%,#204c5c));  webkit 
+   cursor: pointer;
+   }
+
+input[type=submit]:hover {
+   width: 185px; height: 52px; 
+   float: right; 
+   padding: 10px 15px; 
+   margin: 0 15px 0 0;
+   -moz-box-shadow: 0px 0px 5px #999;
+   -webkit-box-shadow: 0px 0px 5px #999;
+   border: 1px solid #556f8c;
+   background: -moz-linear-gradient(top, #668099 0%, #728eaa 100%);  firefox 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#204c5c), color-stop(100%,#406c7c));  webkit 
+   cursor: pointer;
+   }
+   */
+   
+    table {
+       border:1px solid black;
+       border-collapse:separate;
+       border-spacing:30px;
+       }
+    th, td {
+       border:1px solid black;
+       }
